@@ -1,0 +1,8 @@
+services:
+  python:
+    build: container1
+    command: python3 python-practice.py
+  ubuntu:
+    build: container2
+    #entrypoint: "bin/bash"
+    command: echo "hello"
